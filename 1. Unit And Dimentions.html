@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="1. Unit And Dimentions.js"></script>
+        <link rel="stylesheet" href="1. Unit And Dimentions.css">
+    </head>
+    <body>
+        <h1 class="center">1. Unit & Dimentions</h1>
+        <h3 class="center">A product of Mihiraj.com</h3>
+        <input type="text" id="search" placeholder="Search" name="id" value=""> 
+        <button type="button" id="searchBtn" onclick="startSearch()">Search</button>
+
+        <div id="results">
+           <h3>Results</h3>
+           <h6 id="RHeading"></h6>
+           <p id="RPara1"></p>
+           <p id="RPara2"></p>
+           <p id="RPara3"></p>
+           <p id="RPara4"></p>
+        </div>
+        <div id="relResults">
+           <h3>Related;</h3>
+           <p id="relRPara"></p>
+        </div>
+        <div id="ErrDiv">
+           <h3>ERROR</h3>
+           <p>404 Not Found.</p>
+           <p id="ErrPara"></p>
+        </div>
+
+        <script>
+        hideResults();
+        searchParams();
+        </script>
+
+    </body>
+</html>
